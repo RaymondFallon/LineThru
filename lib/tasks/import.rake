@@ -31,7 +31,6 @@ namespace :import do
         save_current_line
         char = Character.where(play: play, name: line_of_text).first_or_create!
         @current_char = char
-        @current_line_body = ''
       else
         @current_line_body += "#{line_of_text}\n"
       end
@@ -43,6 +42,7 @@ namespace :import do
 
     Line.where(scene: @current_scene, character: @current_char, sort_order: @sort_order_index).first_or_create!(body: @current_line_body)
     @sort_order_index += 1
+    @current_line_body = ''
   end
 
   def full_text
