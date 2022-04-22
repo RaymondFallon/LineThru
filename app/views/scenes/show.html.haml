@@ -1,0 +1,6 @@
+%h1= @scene.name
+- @scene.lines.each do |line|
+  %p
+    %strong #{line.character.name}:
+    - line.body.split("\n").each do |line_of_text|
+      %div= line_of_text

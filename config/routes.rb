@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root "plays#index"
+  resources :plays, only: %i[index show]
+  resources :scenes, only: %i[show]
+  resources :character, only: %i[show]
 end
