@@ -1,5 +1,13 @@
 -# View partials
   scene: Scene that characters can be picked from
-  selected_char: nil or Character, depending on if a character is already selected
+  selected_char: Character, can be nil, depending on if a character is already selected
 
-.ml-4 picker
+- selected_char ||= nil
+
+- if selected_char.present?
+  %strong Reading as #{selected_char.name}
+  = link_to 'Change character', scene_path(@scene)
+- else
+  Read as:
+  - scene.characters.each do |char|
+    = link_to char.name, scene_path(@scene, params: { character_id: char.id })
