@@ -1,7 +1,17 @@
-%h1= @scene.name
+%h1.text-2xl.mb-4= @scene.name
 = render partial: 'characters/picker', locals: { scene: @scene, selected_char: @selected_char }
-- @scene.lines.each do |line|
-  %p
-    %strong #{line.character.name}:
-    - line.body.split("\n").each do |line_of_text|
-      %div= line_of_text
+
+%div(data-controller="scene"
+     data-scene-selected-char-id-value="#{@selected_char&.id}"
+     data-scene-line-ids-value="#{@scene.lines.ids}")
+  - @scene.lines.each do |line|
+    - css_class = line.character == @selected_char ? 'my-line' : "their-line-#{@facade.index_for(line.character)}"
+    %div{ class: "hidden #{css_class}",
+          data: { 'scene-target': 'line',
+                  'line-id': line.id,
+                  'line-char-id': line.character.id }}
+      .card.mb-2
+        .card-body
+          %strong #{line.character.name}:
+          - line.body.split("\n").each do |line_of_text|
+            %div= line_of_text

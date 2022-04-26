@@ -4,10 +4,12 @@
 
 - selected_char ||= nil
 
-- if selected_char.present?
-  %strong Reading as #{selected_char.name}
-  = link_to 'Change character', scene_path(@scene)
-- else
-  Read as:
-  - scene.characters.each do |char|
-    = link_to char.name, scene_path(@scene, params: { character_id: char.id })
+.mb-4
+  - if selected_char.present?
+    Reading as
+    %strong= selected_char.name
+    = link_to 'Change character', scene_path(@scene), class: 'underline'
+  - else
+    Read as:
+    - scene.characters.each do |char|
+      = link_to char.name, scene_path(@scene, params: { character_id: char.id }), class: 'underline'

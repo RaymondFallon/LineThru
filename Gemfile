@@ -4,6 +4,7 @@ git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 ruby '3.1.2'
 
 gem 'haml'
+gem 'sass-rails'
 gem 'tailwindcss-rails'
 gem 'vite_rails'
 
