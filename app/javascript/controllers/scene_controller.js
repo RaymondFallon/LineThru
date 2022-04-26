@@ -7,7 +7,7 @@ export default class extends Controller {
 
   connect() {
     console.log("Hi, I'm Ray and I'll be reading for char #" + this.selectedCharIdValue)
-    console.log("lines:" + this.lineIdsValue)
+    console.log("lines:" + this.lineIdsValue) // TODO: use it or lose it
     console.log("lineCard size:" + this.lineTargets.length)
     this.revealUntilMyLine()
   }

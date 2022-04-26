@@ -5,13 +5,19 @@
      data-scene-selected-char-id-value="#{@selected_char&.id}"
      data-scene-line-ids-value="#{@scene.lines.ids}")
   - @scene.lines.each do |line|
-    - css_class = line.character == @selected_char ? 'my-line' : "their-line-#{@facade.index_for(line.character)}"
-    %div{ class: "hidden #{css_class}",
-          data: { 'scene-target': 'line',
-                  'line-id': line.id,
-                  'line-char-id': line.character.id }}
-      .card.mb-2
-        .card-body
-          %strong #{line.character.name}:
-          - line.body.split("\n").each do |line_of_text|
-            %div= line_of_text
+    - if line.character == @selected_char
+      %div{ class: "hidden my-line",
+            data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
+        .card.mb-2{line_data_attrs(line, @selected_char)}
+          .card-body
+            .font-bold #{line.character.name}:
+            %div(data-line-target="output")
+            %input.border.rounded(data-line-target="input" data-action="keyup->line#parseInput")
+    - else
+      %div{ class: "hidden their-line-#{@facade.index_for(line.character)}",
+            data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
+        .card.mb-2
+          .card-body
+            %strong #{line.character.name}:
+            - line.body.split("\n").each do |line_of_text|
+              %div= line_of_text
