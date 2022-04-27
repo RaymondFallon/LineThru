@@ -21,15 +21,17 @@ export default class extends Controller {
   }
 
   revealUntilMyLine() {
-    this.lineTargets.every((element, index) => {
+    this.lineTargets.every((element) => {
       if (this.isTheirLine(element)) {
         this.reveal(element)
         return true
       }
       else if (this.isMyNextLine(element)) {
         this.reveal(element)
+        element.querySelector('input').focus()
         return false
       }
+      else { return true }
     })
     // say congrats & post stats?
   }

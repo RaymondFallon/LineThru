@@ -9,10 +9,14 @@
       %div{ class: "hidden my-line",
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
         .card.mb-2{line_data_attrs(line, @selected_char)}
-          .card-body
-            .font-bold #{line.character.name}:
+          .card-body.flex.flex-col
+            .default-flex-row
+              .font-bold #{line.character.name}:
+              %button(data-action="line#showFullLine") Skip
+              %button.sr-only(data-line-target="skipBtn" data-action="scene#revealUntilMyLine")
             %div(data-line-target="output")
-            %input.border.rounded(data-line-target="input" data-action="keyup->line#parseInput")
+            %input.border.rounded.w-full.mt-8(data-line-target="input" data-action="keyup->line#parseInput")
+
     - else
       %div{ class: "hidden their-line-#{@facade.index_for(line.character)}",
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}

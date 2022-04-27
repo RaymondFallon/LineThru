@@ -19,6 +19,10 @@
 .my-line {
   display: flex;
   justify-content: space-around;
+
+  .card {
+    min-width: 50vw;
+  }
 }
 
 .their-line-1 {

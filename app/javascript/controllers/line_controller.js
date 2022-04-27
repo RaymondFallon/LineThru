@@ -2,29 +2,38 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   static values = {
-    lineId: Number,
+    // lineId: Number,
     segments: Array
   }
-  static targets = ["input", "output"]
+  static targets = ["input", "output", "skipBtn"]
 
   connect() {
     console.log("line ID:" + this.lineIdValue)
     console.log("this.segmentsTarget " + this.segmentsTarget)
-    this.inputTarget.focus()
+    setTimeout(() => this.inputTarget.focus(), 50)
   }
 
   parseInput() {
     if (this.inputMatchesCurrentSegment()) { this.jumpToNextSegment() }
   }
 
+  showFullLine() {
+    while (this.anyLinesLeft()) {
+      this.jumpToNextSegment()
+    }
+  }
+
   // "Private Methods"
+
+  anyLinesLeft() {
+    return this.segmentsValue.length > 0
+  }
 
   currentSegment() {
     return this.segmentsValue[0]
   }
 
   inputMatchesCurrentSegment() {
-    console.log(this.currentSegment())
     return this.lettersOf(this.inputTarget.value) == this.lettersOf(this.currentSegment())
   }
 
@@ -33,9 +42,12 @@ export default class extends Controller {
     this.segmentsValue = this.segmentsValue.splice(1)
     this.outputTarget.innerHTML += `<div>${segment}</div>`
     this.inputTarget.value = ''
+    console.log(this.currentSegment())
+    if (!this.anyLinesLeft()) { this.skipBtnTarget.click() }
   }
 
   lettersOf(string) {
+    if (string == null) {return null}
     return string.toLowerCase().replaceAll(/[^a-z]/g, '')
   }
 }
