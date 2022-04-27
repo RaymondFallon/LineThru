@@ -11,6 +11,7 @@ export default class extends Controller {
     console.log("line ID:" + this.lineIdValue)
     console.log("this.segmentsTarget " + this.segmentsTarget)
     setTimeout(() => this.inputTarget.focus(), 50)
+    console.log(this.currentSegment())
   }
 
   parseInput() {
@@ -42,8 +43,9 @@ export default class extends Controller {
     this.segmentsValue = this.segmentsValue.splice(1)
     this.outputTarget.innerHTML += `<div>${segment}</div>`
     this.inputTarget.value = ''
-    console.log(this.currentSegment())
     if (!this.anyLinesLeft()) { this.skipBtnTarget.click() }
+    console.log(this.currentSegment())
+    window.scrollTo(0, document.body.scrollHeight);
   }
 
   lettersOf(string) {
