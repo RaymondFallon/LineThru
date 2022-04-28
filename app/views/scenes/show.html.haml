@@ -8,7 +8,7 @@
     - if line.character == @selected_char
       %div{ class: "hidden my-line",
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
-        .card.mb-2{line_data_attrs(line, @selected_char)}
+        .card.bg-teal-100.mb-2{line_data_attrs(line, @selected_char)}
           .card-body.flex.flex-col
             .default-flex-row
               .font-bold #{line.character.name}:

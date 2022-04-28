@@ -28,21 +28,45 @@
 .their-line-1 {
   display: flex;
   justify-content: left;
+
+  .card { background-color: #FFEDD5; } // orange-100
 }
 
 .their-line-2 {
   display: flex;
   justify-content: right;
+
+  .card { background-color: #E0F2FE; } // sky-100
 }
 
 .their-line-3 {
   display: flex;
   justify-content: left;
   margin-left: 5rem;
+
+  .card { background-color: #EDE9FE; } // violet-100
 }
 
 .their-line-4 {
   display: flex;
   justify-content: right;
   margin-right: 5rem;
+
+  .card { background-color: #FFE4E6; } // rose-100
+}
+
+.their-line-5 {
+  display: flex;
+  justify-content: left;
+  margin-right: 10rem;
+
+  .card { background-color: #F5F5F4; } // stone-100
+}
+
+.their-line-6 {
+  display: flex;
+  justify-content: right;
+  margin-right: 10rem;
+
+  .card { background-color: #FEF3C7; } // amber-100
 }

@@ -45,7 +45,6 @@ export default class extends Controller {
     this.inputTarget.value = ''
     if (!this.anyLinesLeft()) { this.skipBtnTarget.click() }
     console.log(this.currentSegment())
-    window.scrollTo(0, document.body.scrollHeight);
   }
 
   lettersOf(string) {
