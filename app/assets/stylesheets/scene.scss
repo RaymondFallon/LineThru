@@ -19,6 +19,7 @@
 .my-line {
   display: flex;
   justify-content: space-around;
+  line-height: 1.5;
 
   .card {
     min-width: 50vw;
@@ -69,4 +70,25 @@
   margin-right: 10rem;
 
   .card { background-color: #FEF3C7; } // amber-100
+}
+
+.hint-indicator {
+  position: relative;
+
+  .hint-text {
+    display: none;
+  }
+
+  &:focus-within .hint-text, &:hover .hint-text {
+    display: block;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: .25rem .5rem;
+    width: max-content;
+    max-width: 15rem;
+  }
 }
