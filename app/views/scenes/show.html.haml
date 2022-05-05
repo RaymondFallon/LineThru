@@ -34,6 +34,9 @@
                   - if chunk_2.present?
                     %input.hidden-words-input.border.rounded.inline-block(data-action="keyup->hidden-words#parseInput"
                                                                           data-hidden-words-target="input")
+                    %span.hint-indicator(tabindex=0)
+                      ❓
+                      %div.hint-text= chunk_2
                 .inline-block= chunk_3
     - else
       %div{ class: "hidden their-line-#{@facade.index_for(line.character)}",
