@@ -23,7 +23,7 @@
           .card-body.flex.flex-col
             .default-flex-row
               .font-bold #{line.character.name}:
-              %button(data-action="line#showFullLine") Skip
+              %button(data-action="line#jumpToNextLine") Skip
               %button.sr-only(data-line-target="skipBtn" data-action="scene#revealUntilMyLine")
             - line.segments.each do |segment|
               - chunk_1, chunk_2, chunk_3 = *random_chunks(segment)

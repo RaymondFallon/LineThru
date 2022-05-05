@@ -34,7 +34,7 @@ export default class extends Controller {
       this.lineCard().querySelector('input.hidden-words-input').focus()
     }
     else {
-      alert('jump to next line')
+      this.lineCard().querySelector('button[data-action="line#jumpToNextLine"]').click()
     }
   }
 
