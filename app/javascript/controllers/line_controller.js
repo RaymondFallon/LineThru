@@ -3,6 +3,10 @@ import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
   static targets = ["skipBtn"]
 
+  anyHiddenWordsRemaining() {
+    return this.nextHiddenWordsInput() !== null
+  }
+
   checkForCompletedLine() {
     if (!this.anyHiddenWordsRemaining()) { this.jumpToNextLine() }
   }
@@ -11,9 +15,7 @@ export default class extends Controller {
     this.skipBtnTarget.click()
   }
 
-  // "Private Methods"
-
-  anyHiddenWordsRemaining() {
-    return this.element.querySelector('input.hidden-words-input') !== null
+  nextHiddenWordsInput() {
+    return this.element.querySelector('input.hidden-words-input')
   }
 }

@@ -30,12 +30,9 @@ export default class extends Controller {
   }
 
   jumpToNextSegment() {
-    if (this.lineCard().querySelector('input.hidden-words-input')) {
-      this.lineCard().querySelector('input.hidden-words-input').focus()
-    }
-    else {
-      this.lineCard().querySelector('button[data-action="line#jumpToNextLine"]').click()
-    }
+    this.lineController().anyHiddenWordsRemaining()
+      ? this.lineController().nextHiddenWordsInput().focus()
+      : this.lineController().jumpToNextLine()
   }
 
   lettersOf(string) {
@@ -43,8 +40,8 @@ export default class extends Controller {
     return string.toLowerCase().replaceAll(/[^a-z]/g, '')
   }
 
-  lineCard() {
-    return this.element.closest('.my-line')
+  lineController() {
+    return this.application.getControllerForElementAndIdentifier(this.element.closest('.my-line .card'), 'line')
   }
 
   showFixedOutput() {
