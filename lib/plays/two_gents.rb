@@ -32,7 +32,7 @@ VALENTINE
 Cease to persuade, my loving Proteus:
 Home-keeping youth have ever homely wits.
 Were't not affection chains thy tender days
-To the sweet glances of thy honour'd love,
+To the sweet glances of thy honoured love,
 I rather would entreat thy company
 To see the wonders of the world abroad,
 Than, living dully sluggardized at home,
@@ -79,7 +79,7 @@ Methinks, should not be chronicled for wise.
 But wherefore waste I time to counsel thee,
 That art a votary to fond desire?
 Once more adieu! my father at the road
-Expects my coming, there to see me shipp'd.
+Expects my coming, there to see me shipped.
 PROTEUS
 And thither will I bring thee, Valentine.
 VALENTINE
@@ -107,8 +107,8 @@ Sir Proteus, save you! Saw you my good lord?
 PROTEUS
 But now he parted hence, to embark for Milan.
 SPEED
-Twenty to one then he is shipp'd already,
-And I have play'd the sheep in losing him.
+Twenty to one then he is shipped already,
+And I have played the sheep in losing him.
 PROTEUS
 Indeed, a sheep doth very often stray,
 An if the shepherd be a while away.
@@ -365,7 +365,7 @@ You, lady, are too saucy.
 LUCETTA
 Nay, now you are too flat
 JULIA
-But all drown'd with your unruly bass.
+But all drowned with your unruly bass.
 LUCETTA
 Indeed, I bid the base for Proteus.
 JULIA
@@ -376,10 +376,10 @@ Go get you gone, and let the papers lie:
 You would be fingering them, to anger me.
 LUCETTA
 She makes it strange; but she would be best pleased
-To be so anger'd with another letter.
+To be so angered with another letter.
 Exit
 JULIA
-Nay, would I were so anger'd with the same!
+Nay, would I were so angered with the same!
 O hateful hands, to tear such loving words!
 Injurious wasps, to feed on such sweet honey
 And kill the bees that yield it with your stings!
@@ -390,7 +390,7 @@ I throw thy name against the bruising stones,
 Trampling contemptuously on thy disdain.
 And here is writ 'love-wounded Proteus.'
 Poor wounded name! my bosom as a bed
-Shall lodge thee till thy wound be thoroughly heal'd;
+Shall lodge thee till thy wound be thoroughly healed;
 And thus I search it with a sovereign kiss.
 But twice or thrice was 'Proteus' written down.
 Be calm, good wind, blow not a word away
@@ -436,7 +436,7 @@ PANTHINO
 ANTONIO
 Why, what of him?
 PANTHINO
-He wonder'd that you, Lady
+He wondered that you, Lady
 Would suffer him to spend his youth at home,
 While other folk, of slender reputation,
 Put forth their sons to seek advancement out:
@@ -452,9 +452,9 @@ In having known no travel in his youth.
 ANTONIO
 Nor need'st thou much importune me to that
 Whereon this month I have been hammering.
-I have consider'd well his loss of time
+I have considered well his loss of time
 And how he cannot be a perfect man,
-Not being tried and tutor'd in the world:
+Not being tried and tutored in the world:
 Experience is by industry achieved
 And perfected by the swift course of time.
 Then tell me, whither were I best to send him?
@@ -497,7 +497,7 @@ How now! what letter are you reading there?
 PROTEUS
 May't please you, Mother, 'tis a word or two
 Of commendations sent from Valentine,
-Deliver'd by a friend that came from him.
+Delivered by a friend that came from him.
 ANTONIO
 Lend me the letter; let me see what news.
 PROTEUS
@@ -526,13 +526,13 @@ Please you, deliberate a day or two.
 ANTONIO
 Look, what thou want'st shall be sent after thee:
 No more of stay! to-morrow thou must go.
-Come on, Panthino: you shall be employ'd
+Come on, Panthino: you shall be employed
 To hasten on his expedition.
 Exeunt ANTONIO and PANTHINO
 PROTEUS
-Thus have I shunn'd the fire for fear of burning,
-And drench'd me in the sea, where I am drown'd.
-I fear'd to show my mother Julia's letter,
+Thus have I shunned the fire for fear of burning,
+And drenched me in the sea, where I am drowned.
+I feared to show my mother Julia's letter,
 Lest she should take exceptions to my love;
 And with the vantage of mine own excuse
 Hath she excepted most against my love.
@@ -680,7 +680,7 @@ Sir Valentine and …servant, to you two thousand.
 SPEED
 [Aside] He should give her interest and she gives it him.
 VALENTINE
-As you enjoin'd me, I have writ your letter
+As you enjoined me, I have writ your letter
 Unto the secret nameless friend of yours;
 Which I was much unwilling to proceed in
 But for my duty to your ladyship.
@@ -987,7 +987,7 @@ And though myself have been an idle truant,
 Yet hath Sir Proteus, for that's his name,
 Made use and fair advantage of his days;
 His years but young, but his experience old;
-His head unmellow'd, but his judgment ripe;
+His head unmellowed, but his judgment ripe;
 
 He is complete in feature and in mind
 With all good grace to grace a gentleman.
@@ -1000,7 +1000,7 @@ With commendation from great potentates;
 And here he means to spend his time awhile:
 I think 'tis no unwelcome news to you.
 VALENTINE
-Should I have wish'd a thing, it had been he.
+Should I have wished a thing, it had been he.
 DUKE
 Welcome him then according to his worth.
 Silvia, I speak to you, and you, Sir Thurio;
@@ -1010,7 +1010,7 @@ Exit
 VALENTINE
 This is the gentleman I told your ladyship
 Had come along with me, but that his mistress
-Did hold his eyes lock'd in her crystal looks.
+Did hold his eyes locked in her crystal looks.
 SILVIA
 Belike that now she hath enfranchised them
 Upon some other pawn for loyalty.
@@ -1035,7 +1035,7 @@ Welcome, dear Proteus! Mistress, I beseech you,
 Confirm his welcome with some special favour.
 SILVIA
 His worth is warrant for his welcome hither,
-If this be he you oft have wish'd to hear from.
+If this be he you oft have wished to hear from.
 VALENTINE
 Mistress, it is: sweet lady, entertain him
 To be my fellow-servant to your ladyship.
@@ -1083,7 +1083,7 @@ PROTEUS
 My tales of love were wont to weary you;
 I know you joy not in a love discourse.
 VALENTINE
-Ay, Proteus, but that life is alter'd now:
+Ay, Proteus, but that life is altered now:
 I have done penance for contemning Love,
 For in revenge of my contempt of love,
 Love hath chased sleep from my enthralled eyes
@@ -1144,7 +1144,7 @@ For love, thou know'st, is full of jealousy.
 PROTEUS
 But she loves you?
 VALENTINE
-Ay, and we are betroth'd: nay, more, our,
+Ay, and we are betrothed: nay, more, our,
 marriage-hour,
 With all the cunning manner of our flight,
 Determined of; how I must climb her window,
@@ -1170,7 +1170,7 @@ Is it mine, or Valentine's praise,
 Her true perfection, or my false transgression,
 That makes me reasonless to reason thus?
 She is fair; and so is Julia that I love--
-That I did love, for now my love is thaw'd;
+That I did love, for now my love is thawed;
 Which, like a waxen image, 'gainst a fire,
 Bears no impression of the thing it was.
 Methinks my zeal to Valentine is cold,
@@ -1268,7 +1268,7 @@ But now I worship a celestial sun.
 Unheedful vows may heedfully be broken,
  to exchange the bad for better.
 Fie, fie, unreverend tongue! to call her bad,
-Whose sovereignty so oft thou hast preferr'd
+Whose sovereignty so oft thou hast preferred
 With twenty thousand soul-confirming oaths.
 I cannot leave to love, and yet I do;
 But there I leave to love where I should love.
@@ -1302,7 +1302,7 @@ JULIA
 Counsel, Lucetta; dear lady, assist me;
 And even in kind love I do conjure thee,
 Who art the table wherein all my thoughts
-Are visibly character'd and engraved,
+Are visibly charactered and engraved,
 To lesson me and tell me some good mean
 How, with my honour, I may undertake
 A journey to my loving Proteus.
@@ -1330,7 +1330,7 @@ Lest it should burn above the bounds of reason.
 JULIA
 The more thou damm'st it up, the more it burns.
 The current that with gentle murmur glides,
-Thou know'st, being stopp'd, impatiently doth rage;
+Thou know'st, being stopped, impatiently doth rage;
 Then let me go and hinder not my course
 I'll be as patient as a gentle stream
 And make a pastime of each weary step,
@@ -1355,7 +1355,7 @@ Why even what fashion thou best likest, Lucetta.
 LUCETTA
 You must needs have them with a codpiece, madam.
 JULIA
-Out, out, Lucetta! that would be ill-favour'd.
+Out, out, Lucetta! that would be ill-favoured.
 Lucetta, as thou lovest me, let me have
 What thou thinkest meet and is most mannerly.
 But tell me, true, how will the world repute me
@@ -1439,7 +1439,7 @@ I gave him gentle looks, thereby to find
 That which thyself hast now disclosed to me.
 I nightly lodge her in an upper tower,
 The key whereof myself have ever kept;
-And thence she cannot be convey'd away.
+And thence she cannot be conveyed away.
 PROTEUS
 Know, noble lord, they have devised a mean
 How he her chamber-window will ascend
@@ -1489,7 +1489,7 @@ Nor fearing me as if I were her father;
 And, may I say to thee, this pride of hers,
 Upon advice, hath drawn my love from her;
 And, where I thought the remnant of mine age
-Should have been cherish'd by her child-like duty,
+Should have been cherished by her child-like duty,
 I now am full resolved to take a wife
 And turn her out to who will take her in:
 Then let her beauty be her wedding-dower;
@@ -1515,7 +1515,7 @@ That no man hath access by day to her.
 VALENTINE
 Why, then, I would resort to her by night.
 DUKE
-Ay, but the doors be lock'd and keys kept safe,
+Ay, but the doors be locked and keys kept safe,
 That no man hath recourse to her by night.
 VALENTINE
 What lets but one may enter at her window?
@@ -1576,7 +1576,7 @@ Bestow thy fawning smiles on equal mates,
 And think my patience, more than thy desert,
 Is privilege for thy departure hence:
 Thank me for this more than for all the favours
-Which all too much I have bestow'd on thee.
+Which all too much I have bestowed on thee.
 But if thou linger in my territories
 Longer than swiftest expedition
 Will give thee time to leave our royal court,
@@ -1587,8 +1587,8 @@ But, as thou lovest thy life, make speed from hence.
 Exit
 VALENTINE
 And why not death rather than living torment?
-To die is to be banish'd from myself;
-And Silvia is myself: banish'd from her
+To die is to be banished from myself;
+And Silvia is myself: banished from her
 Is self from self: a deadly banishment!
 What light is light, if Silvia be not seen?
 What joy is joy, if Silvia be not by?
@@ -1600,7 +1600,7 @@ Unless I look on Silvia in the day,
 There is no day for me to look upon;
 She is my essence, and I leave to be,
 If I be not by her fair influence
-Foster'd, illumined, cherish'd, kept alive.
+Fostered, illumined, cherished, kept alive.
 I fly not death, to fly his deadly doom:
 Tarry I here, I but attend on death:
 But, fly I hence, I fly away from life.
@@ -1631,8 +1631,8 @@ Can nothing speak? Master, shall I strike?
 PROTEUS
 Sirrah, I say, forbear. Friend Valentine, a word.
 VALENTINE
-My ears are stopt and cannot hear good news,
-So much of bad already hath possess'd them.
+My ears are stopped and cannot hear good news,
+So much of bad already hath possessed them.
 PROTEUS
 Then in dumb silence will I bury mine,
 For they are harsh, untuneable and bad.
@@ -1654,10 +1654,12 @@ PROTEUS
 That thou art banished--O, that's the news!--
 From hence, from Silvia and from me thy friend.
 VALENTINE
-O, I have fed upon this woe alreadyDoth Silvia know that I am banished?
+O, I have fed upon this woe already
+Doth Silvia know that I am banished?
 PROTEUS
-Ay, ay; and she hath offer'd to the doomA sea of melting pearl, which some call tears:
-Those at her father's churlish feet she tender'd;
+Ay, ay; and she hath offered to the doom
+A sea of melting pearl, which some call tears:
+Those at her father's churlish feet she tendered;
 With them, upon her knees, her humble self;
 Wringing her hands,  but now  waxed pale for woe:
 But neither bended knees, pure hands held up,
@@ -1682,7 +1684,7 @@ Besides, thy staying will abridge thy life.
 Hope is a lover's staff; walk hence with that
 And manage it against despairing thoughts.
 Thy letters may be here, though thou art hence;
-Which, being writ to me, shall be deliver'd
+Which, being writ to me, shall be delivered
 Even in to the  bosom of thy love.
 The time now serves not to expostulate:
 Come, I'll convey thee through the city-gate;
@@ -1708,7 +1710,8 @@ team of horse shall not pluck that from me; nor who
 will not tell myself; and yet 'tis a milkmaid; yet
 'tis not a maid, for she hath had gossips; yet 'tis
 a maid, for she is her boss’s maid, and serves for
-wages. She hath more qualities than a water-spanielPulling out a paper
+wages. She hath more qualities than a water-spaniel
+Pulling out a paper
 Here is the cate-log of her condition.
 'Imprimis: She can fetch and carry.' Why, a horse
 can do no more: nay, a horse cannot fetch, but only
@@ -1809,10 +1812,10 @@ SCENE II. The same. The DUKE's palace.
 Enter DUKE and THURIO
 DUKE
 Sir Thurio, fear not but that she will love you,
-Now Valentine is banish'd from her sight.
+Now Valentine is banished from her sight.
 THURIO
 Since his exile she hath despised me most,
-Forsworn my company and rail'd at me,
+Forsworn my company and railed at me,
 That I am desperate of obtaining her.
 DUKE
 This weak impress of love is as a figure
@@ -1873,7 +1876,7 @@ Your slander never can endamage him;
 Therefore the office is indifferent,
 Being entreated to it by your friend.
 PROTEUS
-You have prevail'd, my lord; if I can do it
+You have prevailed, my lord; if I can do it
 By ought that I can speak in his dispraise,
 She shall not long continue love to him.
 But say this weed her love from Valentine,
@@ -1922,7 +1925,7 @@ THURIO
 And thy advice this night I'll put in practise.
 Therefore, sweet Proteus, my direction-giver,
 Let us into the city presently
-To sort some gentlemen well skill'd in music.
+To sort some gentlemen well skilled in music.
 I have a sonnet that will serve the turn
 To give the onset to thy good advice.
 DUKE
@@ -1953,7 +1956,7 @@ Third Outlaw
 Ay, by my beard, will we, for he's a proper man.
 VALENTINE
 Then know that I have little wealth to lose:
-A man I am cross'd with adversity;
+A man I am crossed with adversity;
 My riches are these poor habiliments,
 Of which if you should here disfurnish me,
 You take the sum and substance that I have.
@@ -1969,22 +1972,22 @@ From Milan.
 Third Outlaw
 Have you long sojourned there?
 VALENTINE
-Some sixteen months, and longer might have stay'd,
+Some sixteen months, and longer might have stayed,
 If crooked fortune had not thwarted me.
 First Outlaw
-What, were you banish'd thence?
+What, were you banished thence?
 VALENTINE
 I was.
 Second Outlaw
 For what offence?
 VALENTINE
 For that which now torments me to rehearse:
-I kill'd a man, whose death I much repent;
+I killed a man, whose death I much repent;
 Bu t yet I slew him manfully in fight,
 Without false vantage or base treachery.
 First Outlaw
 Why, ne'er repent it, if it were done so.
-But were you banish'd for so small a fault?
+But were you banished for so small a fault?
 VALENTINE
 I was, and held me glad of such a doom.
 Second Outlaw
@@ -2007,24 +2010,24 @@ VALENTINE
 Nothing but my fortune.
 Third Outlaw
 Know, then, that some of us are gentlemen,
-Such as the fury of ungovern'd youth
+Such as the fury of ungoverned youth
 Thrust from the company of lawful men:
 Myself was from Verona banished
 For practising to steal away a lady,
 An heir, and near allied unto the duke.
 Second Outlaw
 And I from Mantua, for a gentleman,
-Who, in my mood, I stabb'd unto the heart.
+Who, in my mood, I stabbed unto the heart.
 First Outlaw
 And I for such like petty crimes as these,
 But to the purpose--for we cite our faults,
-That they may hold excus'd our lawless lives;
+That they may hold excused our lawless lives;
 And partly, seeing you are beautified
 With goodly shape and by your own report
 A linguist and a man of such perfection
 As we do in our quality much want--
 Second Outlaw
-Indeed, because you are a banish'd man,
+Indeed, because you are a banished man,
 Therefore, above the rest, we parley to you:
 Are you content to be our general?
 To make a virtue of necessity
@@ -2037,7 +2040,7 @@ Love thee as our commander and our king.
 First Outlaw
 But if thou scorn our courtesy, thou diest.
 Second Outlaw
-Thou shalt not live to brag what we have offer'd.
+Thou shalt not live to brag what we have offered.
 VALENTINE
 I take your offer and will live with you,
 Provided that you do no outrages
@@ -2118,7 +2121,7 @@ Is she kind as she is fair?
 For beauty lives with kindness.
 Love doth to her eyes repair,
 To help him of his blindness,
-And, being help'd, inhabits there.
+And, being helped, inhabits there.
 Then to Silvia let us sing,
 That Silvia is excelling;
 She excels each mortal thing
@@ -2210,7 +2213,7 @@ For I am sure she is not buried.
 SILVIA
 Say that she be; yet Valentine thy friend
 Survives; to whom, thyself art witness,
-I am betroth'd: and art thou not ashamed
+I am betrothed: and art thou not ashamed
 To wrong him with thy importunacy?
 PROTEUS
 I likewise hear that Valentine is dead.
@@ -2257,7 +2260,7 @@ Marry, at my house. Trust me, I think 'tis almost
 day.
 JULIA
 Not so; but it hath been the longest night
-That e'er I watch'd and the most heaviest.
+That e'er I watched and the most heaviest.
 Exeunt
 SCENE III. The same.
 Enter EGLAMOUR
@@ -2282,15 +2285,15 @@ It is your pleasure to command me in.
 SILVIA
 O Eglamour, thou art a gentleman--
 Think not I flatter, for I swear I do not--
-Valiant, wise, remorseful, well accomplish'd:
+Valiant, wise, remorseful, well accomplished:
 Thou art not ignorant what dear good will
-I bear unto the banish'd Valentine,
+I bear unto the banished Valentine,
 Nor how my father would enforce me marry
 Vain Thurio, whom my very soul abhors.
 Thyself hast loved; and I have heard thee say
 No grief did ever come so near thy heart
 As when thy lady and thy true love died,
-Upon whose grave thou vow'dst pure chastity.
+Upon whose grave thou vowedst pure chastity.
 Sir Eglamour, I would to Valentine,
 To Mantua, where I hear he makes abode;
 And, for the ways are dangerous to pass,
@@ -2411,7 +2414,7 @@ Witness good bringing up, fortune and truth:
 Therefore know thou, for this I entertain thee.
 Go presently and take this ring with thee,
 Deliver it to Madam Silvia:
-She loved me well deliver'd it to me.
+She loved me well delivered it to me.
 JULIA
 It seems you loved not her, to leave her token.
 She is dead, belike?
@@ -2442,7 +2445,7 @@ Where thou shalt find me, sad and solitary.
 Exit
 JULIA
 How many women would do such a message?
-Alas, poor Proteus! thou hast entertain'd
+Alas, poor Proteus! thou hast entertained
 A fox to be the shepherd of thy lambs.
 Alas, poor fool! why do I pity him
 That with his very heart despiseth me?
@@ -2482,7 +2485,7 @@ Would better fit his chamber than this shadow.
 JULIA
 Madam, please you peruse this letter.--
 Pardon me, madam; I have unadvised
-Deliver'd you a paper that I should not:
+Delivered you a paper that I should not:
 This is the letter to your ladyship.
 SILVIA
 I pray thee, let me look on that again.
@@ -2491,7 +2494,7 @@ It may not be; good madam, pardon me.
 SILVIA
 There, hold!
 I will not look upon Proteus’ lines:
-I know they are stuff'd with protestations
+I know they are stuffed with protestations
 And full of new-found oaths; which he will break
 As easily as I do tear his paper.
 JULIA
@@ -2534,9 +2537,9 @@ SILVIA
 How tall was she?
 JULIA
 About my stature; for at Pentecost,
-When all our pageants of delight were play'd,
+When all our pageants of delight were played,
 Our youth got me to play the woman's part,
-And I was trimm'd in Madam Julia's gown,
+And I was trimmed in Madam Julia's gown,
 Therefore I know she is about my height.
 SILVIA
 She is beholding to thee, gentle youth.
@@ -2555,16 +2558,16 @@ Alas, how love can trifle with itself!
 Here is her picture: let me see; I think,
 If I had such a tire, this face of mine
 Were full as lovely as is this of hers:
-And yet the painter flatter'd her a little,
+And yet the painter flattered her a little,
 Unless I flatter with myself too much.
 Come, shadow, come and take this shadow up,
 For 'tis thy rival. O thou senseless form,
-Thou shalt be worshipp'd, kiss'd, loved and adored!
+Thou shalt be worshipped, kissed, loved and adored!
 And, were there sense in his idolatry,
 My substance should be statue in thy stead.
 I'll use thee kindly for thy mistress' sake,
 That used me so; or else, by Jove I vow,
-I should have scratch'd out your unseeing eyes
+I should have scratched out your unseeing eyes
 To make my master out of love with thee!
 Exit--------------------------------------------------------------------------------
 ACT V
@@ -2602,7 +2605,7 @@ No; that it is too little.
 THURIO
 I'll wear a boot, to make it somewhat rounder.
 JULIA
-[Aside] But love will not be spurr'd to what
+[Aside] But love will not be spurred to what
 it loathes.
 THURIO
 How likes she my discourse?
@@ -2653,9 +2656,9 @@ Why then,
 She's fled unto that peasant Valentine;
 And Eglamour is in her company.
 'Tis true; for a good Friar  met them both,
-As he in penance wander'd through the forest;
-Him he knew well, and guess'd that it was she,
-But, being mask'd, he was not sure of it;
+As he in penance wandered through the forest;
+Him he knew well, and guessed that it was she,
+But, being masked, he was not sure of it;
 Besides, she did intend confession
 At Patrick's cell this even; and there she was not;
 These likelihoods confirm her flight from hence.
@@ -2686,7 +2689,7 @@ Come, come,
 Be patient; we must bring you to our captain.
 SILVIA
 A thousand more mischances than this one
-Have learn'd me how to brook this patiently.
+Have learned me how to brook this patiently.
 Second Outlaw
 Come, bring her away.
 First Outlaw
@@ -2762,7 +2765,7 @@ Read over Julia's heart, thy first best love,
 For whose dear sake thou didst then rend thy faith
 Into a thousand oaths; and all those oaths
 Descended into perjury, to love me.
-Thou hast no faith left now, unless thou'dst two;
+Thou hast no faith left now, unless thouedst two;
 And that's far worse than none; better have none
 Than plural faith which is too much by one:
 Thou counterfeit to thy true friend!
@@ -2839,7 +2842,7 @@ PROTEUS
 How! Julia!
 JULIA
 Behold her that gave aim to all thy oaths,
-And entertain'd 'em deeply in her heart.
+And entertained 'em deeply in her heart.
 How oft hast thou with perjury cleft the root!
 O Proteus, let this habit make thee blush!
 Be thou ashamed that I have took upon me
@@ -2897,7 +2900,7 @@ I do applaud thy spirit, Valentine,
 And think thee worthy of an empress' love:
 Know then, I here forget all former griefs,
 Cancel all grudge, repeal thee home again,
-Plead a new state in thy unrivall'd merit,
+Plead a new state in thy unrivalled merit,
 To which I thus subscribe: Sir Valentine,
 Thou art a gentleman and well derived;
 Take thou thy Silvia, for thou hast deserved her.
@@ -2908,14 +2911,14 @@ To grant one boom that I shall ask of you.
 DUKE
 I grant it, for thine own, whate'er it be.
 VALENTINE
-These banish'd men that I have kept withal
+These banished men that I have kept withal
 Are men endued with worthy qualities:
 Forgive them what they have committed here
-And let them be recall'd from their exile:
+And let them be recalled from their exile:
 They are reformed, civil, full of good
 And fit for great employment, worthy lord.
 DUKE
-Thou hast prevail'd; I pardon them and thee:
+Thou hast prevailed; I pardon them and thee:
 Dispose of them as thou know'st their deserts.
 Come, let us go: we will include all jars
 With triumphs, mirth and rare solemnity.
