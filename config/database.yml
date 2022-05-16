@@ -6,15 +6,17 @@ default: &default
 
 development:
   <<: *default
-  database: db/linethru_dev_db
+  database: linethru_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/linethru_test_db
+  database: linethru_test
 
 production:
   <<: *default
-  database: db/linethru_prd_db
+  database: linethru_production
+  username: myapp
+  password: <%= ENV['LINETHRU_DATABASE_PASSWORD'] %>
