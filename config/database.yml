@@ -18,5 +18,5 @@ test:
 production:
   <<: *default
   database: linethru_production
-  username: myapp
+  username: linethru
   password: <%= ENV['LINETHRU_DATABASE_PASSWORD'] %>
