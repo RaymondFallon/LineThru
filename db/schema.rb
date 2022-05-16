@@ -11,9 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_04_22_192932) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "characters", force: :cascade do |t|
     t.string "name"
-    t.integer "play_id", null: false
+    t.bigint "play_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["play_id"], name: "index_characters_on_play_id"
@@ -22,8 +25,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_22_192932) do
   create_table "lines", force: :cascade do |t|
     t.integer "sort_order"
     t.string "body"
-    t.integer "scene_id", null: false
-    t.integer "character_id", null: false
+    t.bigint "scene_id", null: false
+    t.bigint "character_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["character_id"], name: "index_lines_on_character_id"
@@ -38,7 +41,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_22_192932) do
 
   create_table "scenes", force: :cascade do |t|
     t.string "name"
-    t.integer "play_id", null: false
+    t.bigint "play_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["play_id"], name: "index_scenes_on_play_id"
