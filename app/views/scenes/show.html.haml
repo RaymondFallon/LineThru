@@ -32,8 +32,12 @@
                 .inline-block= chunk_1
                 .inline-block(data-hidden-words-target="wrapper")
                   - if chunk_2.present?
-                    %input.hidden-words-input.border.rounded.inline-block(data-action="keyup->hidden-words#parseInput"
-                                                                          data-hidden-words-target="input")
+                    %textarea.hidden-words.border.rounded.inline-block{
+                      rows: 1,
+                      cols: chunk_2.size,
+                      autocomplete: 'false',
+                      'data-action': "keyup->hidden-words#parseInput",
+                      'data-hidden-words-target': "input" }
                     %span.hint-indicator(tabindex=0)
                       ❓
                       %div.hint-text= chunk_2

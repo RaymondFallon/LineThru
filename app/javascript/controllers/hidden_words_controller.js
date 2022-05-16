@@ -31,7 +31,7 @@ export default class extends Controller {
 
   jumpToNextSegment() {
     this.lineController().anyHiddenWordsRemaining()
-      ? this.lineController().nextHiddenWordsInput().focus()
+      ? this.lineController().nextHiddenWords().focus()
       : this.lineController().jumpToNextLine()
   }
 

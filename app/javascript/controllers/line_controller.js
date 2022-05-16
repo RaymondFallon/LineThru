@@ -4,7 +4,7 @@ export default class extends Controller {
   static targets = ["skipBtn"]
 
   anyHiddenWordsRemaining() {
-    return this.nextHiddenWordsInput() !== null
+    return this.nextHiddenWords() !== null
   }
 
   checkForCompletedLine() {
@@ -15,7 +15,7 @@ export default class extends Controller {
     this.skipBtnTarget.click()
   }
 
-  nextHiddenWordsInput() {
-    return this.element.querySelector('input.hidden-words-input')
+  nextHiddenWords() {
+    return this.element.querySelector('textarea.hidden-words')
   }
 }

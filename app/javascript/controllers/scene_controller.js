@@ -28,7 +28,7 @@ export default class extends Controller {
       }
       else if (this.isMyNextLine(element)) {
         this.reveal(element)
-        element.querySelector('input').focus()
+        element.querySelector('textarea').focus()
         window.scrollTo(0, document.body.scrollHeight);
         return false
       }
