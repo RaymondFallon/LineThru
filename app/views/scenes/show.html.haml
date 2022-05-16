@@ -1,3 +1,4 @@
+= link_to @scene.play.title, play_path(@scene.play)
 %h1.text-2xl.mb-4= @scene.name
 = render partial: 'characters/picker', locals: { scene: @scene, selected_char: @selected_char }
 
