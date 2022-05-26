@@ -2734,7 +2734,7 @@ Vouchsafe me, for my meed, but one fair look;
 A smaller boon than this I cannot beg
 And less than this, I am sure, you cannot give.
 VALENTINE
-[Aside] How like a dream is this I see and hear!
+How like a dream is this I see and hear!
 Love, lend me patience to forbear awhile.
 SILVIA
 O miserable, unhappy that I am!
@@ -2877,7 +2877,7 @@ DUKE
 Sir Valentine!
 THURIO
 Yonder is Silvia; and Silvia's mine.
-VALENTINE
+Silvia
 Thurio, give back, or else embrace thy death;
 Come not within the measure of my wrath;
 Do not name Silvia thine; if once again,

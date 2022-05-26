@@ -5,6 +5,8 @@ namespace :import do
   task test: [:environment] do
     include Plays::TwoGents
 
+    Line.all.destroy_all
+
     p 'Importing data...'
 
     @act_name = ''
