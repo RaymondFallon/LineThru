@@ -2716,6 +2716,8 @@ I better brook than flourishing peopled towns:
 Here can I sit alone, unseen of any,
 And to the nightingale's complaining notes
 Tune my distresses and record my woes.
+O thou that dost inhabit in my breast,
+Leave not the mansion so long tenantless
 Repair me with thy presence, Silvia;
 Thou gentle nymph, cherish thy forlorn swain!
 What halloing and what stir is this to-day?
@@ -2811,7 +2813,7 @@ Who by repentance is not satisfied
 Is nor of heaven nor earth, for these are pleased.
 By penitence the Eternal's wrath's appeased:
 And, that my love may appear plain and free,
-Know All love that was mine in Silvia I give too, to thee.
+Know, all love that is mine in Silvia I give too, to thee.
 JULIA
 Swoons
 PROTEUS
