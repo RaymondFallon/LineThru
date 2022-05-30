@@ -26,12 +26,10 @@ namespace :import do
         save_current_line
         @act_name = line_of_text
         @sort_order_index = 0
-        next
       elsif line_of_text.match?(/^SCENE /)
         save_current_line
         @current_scene = Scene.where(play: play, name: "#{@act_name} #{line_of_text}").first_or_create!
         @sort_order_index = 0
-        next
       elsif line_of_text.downcase.in?(character_names)
         save_current_line
         char = Character.where(play: play, name: line_of_text.titleize).first_or_create!
