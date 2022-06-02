@@ -38,8 +38,8 @@ namespace :import do
         p("single line: #{line_of_text}") if line_of_text.split(" ").size == 1 # on the lookout for character name typos
         @current_line_body += "#{line_of_text}\n"
       end
-      save_current_line
     end
+    save_current_line
   end
 
   def save_current_line
