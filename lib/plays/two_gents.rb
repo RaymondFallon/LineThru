@@ -2911,7 +2911,7 @@ Take thou thy Silvia, for thou hast deserved her.
 VALENTINE
 I thank your grace; the gift hath made me happy.
 I now beseech you, for your daughter's sake,
-To grant one boom that I shall ask of you.
+To grant one boon that I shall ask of you.
 DUKE
 I grant it, for thine own, whate'er it be.
 VALENTINE
