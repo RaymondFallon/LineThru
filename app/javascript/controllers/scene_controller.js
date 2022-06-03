@@ -11,7 +11,6 @@ export default class extends Controller {
     console.log("lines:" + this.lineIdsValue) // TODO: use it or lose it
     console.log("lineCard size:" + this.lineTargets.length)
     this.jumpToStartLine()
-    this.revealUntilMyLine()
   }
 
   isMyNextLine(line) {
@@ -26,6 +25,7 @@ export default class extends Controller {
     for (var i = 0; i < this.startLineValue; i++) {
       this.reveal(this.lineTargets[i])
     }
+    this.revealUntilMyLine()
   }
 
   revealUntilMyLine() {
