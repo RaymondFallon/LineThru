@@ -2808,9 +2808,11 @@ Be a sufficient ransom for offence,
 I tender 't here; I do as truly suffer
 As e'er I did commit.
 VALENTINE
-Then I am paid;
+I do receive thee honest
+Silvia
 Who by repentance is not satisfied
 Is nor of heaven nor earth, for these are pleased.
+VALENTINE
 By penitence the Eternal's wrath's appeased:
 And, that my love may appear plain and free,
 Know, all love that is mine in Silvia I give too, to thee.
@@ -2909,7 +2911,7 @@ Take thou thy Silvia, for thou hast deserved her.
 VALENTINE
 I thank your grace; the gift hath made me happy.
 I now beseech you, for your daughter's sake,
-To grant one boom that I shall ask of you.
+To grant one boon that I shall ask of you.
 DUKE
 I grant it, for thine own, whate'er it be.
 VALENTINE
