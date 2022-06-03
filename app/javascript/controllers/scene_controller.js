@@ -2,6 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   static values = { selectedCharId: Number,
+                    startLine: Number,
                     lineIds: Array }
   static targets = ["line"]
 
@@ -9,6 +10,7 @@ export default class extends Controller {
     console.log("Hi, I'm Ray and I'll be reading for char #" + this.selectedCharIdValue)
     console.log("lines:" + this.lineIdsValue) // TODO: use it or lose it
     console.log("lineCard size:" + this.lineTargets.length)
+    this.jumpToStartLine()
     this.revealUntilMyLine()
   }
 
@@ -18,6 +20,12 @@ export default class extends Controller {
 
   isTheirLine(line) {
     return Number(line.dataset.lineCharId) != this.selectedCharIdValue
+  }
+
+  jumpToStartLine() {
+    for (var i = 0; i < this.startLineValue; i++) {
+      this.reveal(this.lineTargets[i])
+    }
   }
 
   revealUntilMyLine() {

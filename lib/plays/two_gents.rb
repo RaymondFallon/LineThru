@@ -2808,9 +2808,11 @@ Be a sufficient ransom for offence,
 I tender 't here; I do as truly suffer
 As e'er I did commit.
 VALENTINE
-Then I am paid;
+I do receive thee honest
+Silvia
 Who by repentance is not satisfied
 Is nor of heaven nor earth, for these are pleased.
+VALENTINE
 By penitence the Eternal's wrath's appeased:
 And, that my love may appear plain and free,
 Know, all love that is mine in Silvia I give too, to thee.

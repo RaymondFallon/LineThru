@@ -4,27 +4,22 @@
 
 %div(data-controller="scene"
      data-scene-selected-char-id-value="#{@selected_char&.id}"
-     data-scene-line-ids-value="#{@scene.lines.ids}")
-  - @scene.lines.each do |line|
+     data-scene-line-ids-value="#{@scene.lines.ids}"
+     data-scene-start-line-value="#{params.dig('start_line_idx') || 0}")
+  - @scene.lines.each_with_index do |line, idx|
     - if line.character == @selected_char
-      -# Write out full lines:
-        %div{ class: "hidden my-line",
-              data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
-          .card.bg-teal-100.mb-2{line_data_attrs(line, @selected_char)}
-            .card-body.flex.flex-col
-              .default-flex-row
-                .font-bold #{line.character.name}:
-                %button(data-action="line#showFullLine") Skip
-                %button.sr-only(data-line-target="skipBtn" data-action="scene#revealUntilMyLine")
-              %div(data-line-target="output")
-              %input.border.rounded.w-full.mt-8(data-line-target="input" data-action="keyup->line#parseInput")
       %div{ class: "hidden my-line",
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
         .card.bg-teal-100.mb-2{line_data_attrs(line, @selected_char)}
           .card-body.flex.flex-col
             .default-flex-row
               .font-bold #{line.character.name}:
-              %button(data-action="line#jumpToNextLine") Skip
+              %div(data-controller="clipboard")
+                %button(class="btn btn-outline-primary ml-2" data-action="clipboard#copy")
+                  = fa_icon 'link'
+                .hidden.absolute.inline-block.badge.badge-primary.ml-2.mt-2(data-target="clipboard.notifier") Copied!
+                .sr-only(data-target="clipboard.text")
+                  = scene_url(@scene, params: { character_id: @selected_char&.id, start_line_idx: idx })
               %button.sr-only(data-line-target="skipBtn" data-action="scene#revealUntilMyLine")
             - line.segments.each do |segment|
               - chunk_1, chunk_2, chunk_3 = *random_chunks(segment)
@@ -43,6 +38,7 @@
                       ❓
                       %div.hint-text= chunk_2
                 .inline-block= chunk_3
+            %button.border-1(data-action="line#jumpToNextLine") Skip
     - else
       %div{ class: "hidden their-line-#{@facade.index_for(line.character)}",
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
