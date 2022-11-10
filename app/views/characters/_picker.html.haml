@@ -8,6 +8,7 @@
   - if selected_char.present?
     Reading as
     %strong= selected_char.name
+    .inline-block= character_photo(selected_char)
     = link_to 'Change character', scene_path(@scene), class: 'underline'
   - else
     Read as:

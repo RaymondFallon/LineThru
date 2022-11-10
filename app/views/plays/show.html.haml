@@ -1,6 +1,15 @@
 %h1.text-3xl.mb-4= @play.title
 - @play.scenes.each do |scene|
-  %h2.block.text-xl.mt-4= scene.name
-  .inline-block.mr-4= link_to 'READONLY', scene_path(scene)
-  - scene.characters.each do |char|
-    .inline-block.mr-4= link_to char.name, scene_path(scene, character_id: char.id)
+  .card.mb-4
+    .card-body
+      %h2.block.text-xl= scene.name
+      .default-flex-row
+        .card.w-min
+          = link_to 'READONLY', scene_path(scene), class: 'p-2'
+        %div
+          - scene.characters.each do |char|
+            .card.w-min.mr-2.inline-block
+              = link_to scene_path(scene, character_id: char.id), class: 'mr-4 p-2 inline-block' do
+                .inline-block= character_photo(char)
+                = char.name
+            -# .inline-block.mr-4= link_to char.name, scene_path(scene, character_id: char.id)

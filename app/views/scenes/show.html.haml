@@ -44,6 +44,8 @@
             data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
         .card.mb-2
           .card-body
-            %strong #{line.character.name}:
+            .default-flex-row.mb-4
+              %strong #{line.character.name}:
+              = character_photo(line.character)
             - line.body.split("\n").each do |line_of_text|
               %div= line_of_text
