@@ -2,10 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-
 @layer utilities {
-  .their-line-1 .card { @apply bg-orange-100;
-}
+  .their-line-1 .card {
+    @apply bg-orange-100;
+  }
 
-*/
+  .their-line-2 .card {
+    @apply bg-sky-100;
+  }
+
+  .their-line-3 .card {
+    @apply bg-violet-100;
+  }
+
+  .their-line-4 .card {
+    @apply bg-rose-100;
+  }
+
+  .their-line-5 .card {
+    @apply bg-stone-100;
+  }
+
+  .their-line-6 .card {
+    @apply bg-amber-100;
+  }
+};

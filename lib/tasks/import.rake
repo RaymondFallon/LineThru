@@ -1,8 +1,15 @@
 require_relative '../plays/two_gents'
+require_relative '../plays/ideal_husband'
 
 namespace :import do
-  desc "Import play from file"
-  task test: [:environment] do
+  desc "Import Ideal Husband"
+  task ideal_husband: [:environment] do
+    importer = Importer.new('Plays::IdealHusband')
+    importer.run
+  end
+
+  desc "Import Two Gents"
+  task two_gents: [:environment] do
     include Plays::TwoGents
 
     Line.all.destroy_all

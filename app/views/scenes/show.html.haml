@@ -23,8 +23,8 @@
               %button.sr-only(data-line-target="skipBtn" data-action="scene#revealUntilMyLine")
             - line.segments.each do |segment|
               - chunk_1, chunk_2, chunk_3 = *random_chunks(segment)
-              .pb-1(data-controller="hidden-words"
-                    data-hidden-words-text-value="#{chunk_2}")
+              .pb-1.inline-block(data-controller="hidden-words"
+                                 data-hidden-words-text-value="#{chunk_2}")
                 .inline-block= chunk_1
                 .inline-block(data-hidden-words-target="wrapper")
                   - if chunk_2.present?

@@ -4,12 +4,11 @@
     .card-body
       %h2.block.text-xl= scene.name
       .default-flex-row
-        .card.w-min
-          = link_to 'READONLY', scene_path(scene), class: 'p-2'
+        = link_to 'READONLY', scene_path(scene), class: 'btn btn-outline-primary py-2'
         %div
           - scene.characters.each do |char|
-            .card.w-min.mr-2.inline-block
-              = link_to scene_path(scene, character_id: char.id), class: 'mr-4 p-2 inline-block' do
+            = link_to scene_path(scene, character_id: char.id), class: 'btn btn-outline-primary ml-2' do
+              .flex.align-items-center
                 .inline-block= character_photo(char)
-                = char.name
+                .ml-2= char.name
             -# .inline-block.mr-4= link_to char.name, scene_path(scene, character_id: char.id)
