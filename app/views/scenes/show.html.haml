@@ -41,11 +41,14 @@
             %button.border-1(data-action="line#jumpToNextLine") Skip
     - else
       %div{ class: "hidden their-line-#{@facade.index_for(line.character)}",
-            data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id }}
+            data: { 'scene-target': 'line', 'line-id': line.id, 'line-char-id': line.character.id,
+                    controller: 'text-to-voice', 'text-to-voice-line-body-value': line.body }}
         .card.mb-2
           .card-body
             .default-flex-row.mb-4
               %strong #{line.character.name}:
               = character_photo(line.character)
+              %button.btn.btn-info(data-action="text-to-voice#speakTheSpeech" aria-label="speak the speech")
+                = fa_icon 'microphone-alt'
             - line.body.split("\n").each do |line_of_text|
               %div= line_of_text

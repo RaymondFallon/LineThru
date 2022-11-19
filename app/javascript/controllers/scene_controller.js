@@ -7,9 +7,9 @@ export default class extends Controller {
   static targets = ["line"]
 
   connect() {
-    console.log("Hi, I'm Ray and I'll be reading for char #" + this.selectedCharIdValue)
-    console.log("lines:" + this.lineIdsValue) // TODO: use it or lose it
-    console.log("lineCard size:" + this.lineTargets.length)
+    // console.log("Hi, I'm Ray and I'll be reading for char #" + this.selectedCharIdValue)
+    // console.log("lines:" + this.lineIdsValue) // TODO: use it or lose it
+    // console.log("lineCard size:" + this.lineTargets.length)
     this.jumpToStartLine()
   }
 

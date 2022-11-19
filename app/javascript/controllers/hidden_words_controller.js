@@ -6,10 +6,6 @@ export default class extends Controller {
   }
   static targets = ["input", "wrapper"]
 
-  connect() {
-    console.log("hidden text:" + this.textValue)
-  }
-
   parseInput() {
     if (this.inputMatchesHiddenValue()) {
       this.showFixedOutput()
