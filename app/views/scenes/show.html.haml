@@ -30,10 +30,12 @@
                   - if chunk_2.present?
                     %textarea.hidden-words.border.rounded.inline-block{
                       rows: 1,
-                      cols: chunk_2.size,
+                      cols: chunk_2.size + 2,
                       autocomplete: 'false',
                       'data-action': "keyup->hidden-words#parseInput",
                       'data-hidden-words-target': "input" }
+                    %button.listen-for-line-btn(data-action="hidden-words#listen")
+                      = fa_icon 'microphone-alt'
                     %span.hint-indicator(tabindex=0)
                       ❓
                       %div.hint-text= chunk_2

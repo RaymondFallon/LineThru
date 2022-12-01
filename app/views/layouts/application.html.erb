@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= vite_client_tag %>
+    <%= vite_javascript_tag 'application' %>
+    <%= javascript_importmap_tags %>
     <title>LineThru</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
@@ -8,10 +11,7 @@
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
     <script src="https://kit.fontawesome.com/6e53b97a40.js" crossorigin="anonymous"></script>
-    <%= vite_client_tag %>
-    <%= vite_javascript_tag 'application' %>
     <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
@@ -24,7 +24,7 @@
 
   </head>
 
-  <body class="bg-gray-100">
+  <body data-turbo="true" class="bg-gray-100">
     <main class="p-8 pt-2">
       <%= yield %>
     </main>

@@ -5,7 +5,9 @@ class Line < ApplicationRecord
   def segments
     # body.split("\n")
     words = body.split(' ')
-    avg_length_of_seg = rand(5..15)
+    return [body] if words.size < 10
+
+    avg_length_of_seg = rand(15..30)
     num_segments = words.size / avg_length_of_seg
 
     result = []

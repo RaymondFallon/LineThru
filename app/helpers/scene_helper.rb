@@ -11,9 +11,9 @@ module SceneHelper
 
   def random_chunks(line_segment)
     words = line_segment.split(' ')
-    return ['', line_segment, ''] unless words.size > 3
+    return ['', line_segment, ''] unless words.size > 10
 
-    idx_1 = (0..(words.size - 3)).to_a.sample
+    idx_1 = (0..(words.size / 2)).to_a.sample
     idx_2 = ((idx_1+1)..(words.size)).to_a.sample
     chunk_1 = words.slice(0, idx_1).join(' ')
     chunk_2 = words.slice(idx_1, idx_2 - idx_1).join(' ')

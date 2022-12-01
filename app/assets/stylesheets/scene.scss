@@ -72,9 +72,16 @@
   // .card { background-color: #FEF3C7; } // amber-100
 }
 
+.listen-for-line-btn {
+  position: relative;
+  top: -3px;
+  left: -8px;
+}
+
 .hint-indicator {
   position: relative;
   top: -3px;
+  left: -10px;
   cursor: help;
 
   .hint-text {
@@ -100,5 +107,5 @@ textarea.hidden-words {
   padding: 0 0 0 .25rem;
   height: 1.6rem;
   overflow-y: hidden;
-  margin-right: -20px;
+  margin-right: -40px;
 }
