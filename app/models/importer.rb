@@ -3,6 +3,7 @@ class Importer
     play_title
     characters
     full_play_text
+    line_regex
   ].freeze
 
   attr_accessor :play
@@ -32,6 +33,10 @@ class Importer
 
   private
 
+  def char_regex
+    characters.map { "(#{_1})" }.join('|')
+  end
+
   def import_data
 
     Line.where(scene: @play.scenes).destroy_all
@@ -44,15 +49,14 @@ class Importer
     @sort_order_index = 0
 
 
-    char_regex = characters.map { "(#{_1})" }.join('|')
-    line_regex = Regexp.new("(#{char_regex})(:|\.) (.*)", Regexp::IGNORECASE)
+    char_regex = char_regex
 
     full_play_text.split("\n").each do |line_of_text|
       match_data = line_regex.match(line_of_text)
 
       if match_data && match_data[1].present?
         create_line(char_name: match_data[1], line_text: match_data[-1])
-      elsif /^\*+$/.match?(line_of_text.strip) # '****' or similar
+      elsif new_scene_regex.match?(line_of_text.strip) # '****' or similar
         @scene_index = @scene_index + 1
         @sort_order_index = 0
         @current_scene = Scene.where(play: @play, name: "Scene #{@scene_index}").first_or_create!

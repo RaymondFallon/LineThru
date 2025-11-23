@@ -16,6 +16,14 @@ module Plays
       ]
     end
 
+    def line_regex
+      Regexp.new("(#{char_regex})(:|\.) (.*)", Regexp::IGNORECASE)
+    end
+
+    def new_scene_regex
+      /^\*+$/
+    end
+
     def full_play_text
       text = <<~STRING
 Lord Goring: [direct address] The octagon room at Sir Robert Chiltern’s house in Grosvenor Square.  The room is brilliantly lighted and full of guests.  At the top of the staircase stands Lady Chiltern, a woman of grave Greek beauty, about twenty-seven years of age.  She receives the guests as they come up.  Over the well of the staircase hangs a great chandelier with wax lights, which illuminate a large eighteenth-century French tapestry—representing the Triumph of Love, from a design by Boucher—that is stretched on the staircase wall.  On the right is the entrance to the music-room.  The sound of a string quartette is faintly heard.  Enter Lord Caversham, an old gentleman of sixty, wearing the riband and star of the Garter.  A fine Whig type.  Rather like a portrait by Lawrence.
@@ -151,8 +159,8 @@ Mrs. Cheveley.  I realise that I am talking to a man who laid the foundation of 
 Sir Robert Chiltern.  What do you mean?
 Mrs. Cheveley.  I mean that I know the real origin of your wealth and your career, and I have got your letter, too.
 Sir Robert Chiltern.  What letter?
-Mrs. Cheveley.  The letter you wrote to Baron Arnheim, when you were Lord Radley’s secretary, telling the Baron to buy Suez Canal shares—a letter written three days before the Government announced its own purchase. You thought that letter had been destroyed.  It is in my possession.
-Sir Robert Chiltern.  The affair to which you allude was no more than a speculation.  The House of Commons had not yet passed the bill; it might have been rejected.
+Mrs. Cheveley.  The letter you wrote to Baron Arnheim, when you were Lord Radley’s secretary, telling the Baron to buy Suez Canal shares—a letter written three days before the Government announced its own purchase.
+Sir Robert Chiltern.  The affair to which you allude was no more than a speculation.
 Mrs. Cheveley.  It was a swindle, Sir Robert.  Let us call things by their proper names.  It makes everything simpler.  And now I am going to sell you that letter, and the price I ask for it is your public support of the Argentine scheme.  You made your own fortune out of one canal.  You must help me and my friends to make our fortunes out of another!
 Sir Robert Chiltern.  It is infamous, what you propose—
 Mrs. Cheveley.  Oh, no!  This is the game of life as we all have to play it, Sir Robert, sooner or later!

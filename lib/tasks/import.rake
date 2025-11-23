@@ -1,7 +1,14 @@
-require_relative '../plays/two_gents'
+require_relative '../plays/arms_and_the_man'
 require_relative '../plays/ideal_husband'
+require_relative '../plays/two_gents'
 
 namespace :import do
+  desc "Import Arms and the Man"
+  task arms_and_the_man: [:environment] do
+    importer = Importer.new('Plays::ArmsAndTheMan')
+    importer.run
+  end
+
   desc "Import Ideal Husband"
   task ideal_husband: [:environment] do
     importer = Importer.new('Plays::IdealHusband')
